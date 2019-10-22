@@ -1,44 +1,25 @@
-**!! Atenção: Renomeie o seu repositório para (Tema)_(NomeDoProjeto). !!** 
+# Fração Egípicia
 
-Temas:
- - Grafos1
- - Grafos2
- - PD
- - D&C
- - Greed
- - Final 
- 
- **!! *Não coloque os nomes dos alunos no título do repositório*. Exemplo de título correto: Grafos2_Labirinto-do-Minotauro !!**
- 
- (Apague essa seção)
-
-# NomedoProjeto
-
-**Número da Lista**: X<br>
-**Conteúdo da Disciplina**: XXXXXXXXXX<br>
+**Número da Lista**: 3<br>
+**Conteúdo da Disciplina**: Algoritmos Ambiciosos<br>
 
 ## Alunos
-|Matrícula | Aluno |
-| -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| Matrícula  | Aluno                              |
+| ---------- | ---------------------------------- |
+| 17/0050939 | Lucas Dutra Ferreira do Nascimento |
+| 16/0142369 | Rafael M. Gomes Ferreira           |
 
 ## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
-
-## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+Cada fração positiva pode ser representada como a soma das frações unitárias únicas. Uma fração é uma fração unitária se o numerador for 1 e o denominador for um número inteiro positivo, por exemplo 1/2 é uma fração unitária. Essa representação é chamada de fração egípcia, pois era usada pelos antigos egípcios. Para solucionar este problema, utilizaremos de uma abordagem gulosa.
 
 ## Instalação 
-**Linguagem**: xxxxxx<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+**Linguagem**: Python<br>
+Qualquer versão do Python 3 pode ser utilizada para compilar o projeto.
 
 ## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
-
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
+* Compile o projeto  
+``` $ python3 egyptian_fraction.py ```
+* Siga os comandos que serão mostrados no terminal.
 
 
 
