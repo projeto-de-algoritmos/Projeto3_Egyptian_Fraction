@@ -1,9 +1,11 @@
 import math
 
+# Problema 5: Qual fração é maior, 4/7 ou 5/8?
+# Problema 6: Qual fração é menor, 3/11 ou 2/7?
 
 def egyptian_fraction(numerator, denominator):
 
-    print("\n\nA representação egípicia da fração {}/{} é: ".
+    print("\nA representação egípicia da fração {}/{} é: ".
           format(numerator, denominator))
 
     fraction_elements = []
@@ -21,16 +23,17 @@ def egyptian_fraction(numerator, denominator):
         else:
             print(" 1/{0}" .
                   format(fraction_elements[elem]), end=" ")
+    print('\n')
 
 
 def main():
-    numerator = int(input("Insira o numerador da fração desejada\n"))
-    denominator = int(input("\n\nInsira o denominador da fração desejada\n"))
+    numerator = int(input("Insira o numerador da fração desejada: "))
+    denominator = int(input("\nInsira o denominador da fração desejada: "))
 
     conditional = 0
     while conditional != 1:
         conditional = int(input(
-            "\n\nA fração desejada é {}/{} ? Se sim, digite 1. Caso contrário digite 3\n".format(numerator, denominator)))
+            "\nA fração desejada é {}/{} ? Se sim, digite 1. Caso contrário digite 3: ".format(numerator, denominator)))
         if conditional != 1:
             numerator = int(input("Insira o numerador da fração desejada\n"))
             denominator = int(
